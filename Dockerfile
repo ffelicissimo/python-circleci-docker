@@ -8,4 +8,4 @@ COPY hello_world.py /opt/hello_word/
 
 EXPOSE 80
 
-ENTRYPOINT ["python", "/opt/app/hello_world.py"]
+ENTRYPOINT ["python", "/opt/hello_world.py"]
