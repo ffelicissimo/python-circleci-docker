@@ -8,4 +8,4 @@ COPY hello_world.py /opt/hello_word/
 
 EXPOSE 80
 
-CMD [ "./hello_world" ]
+ENTRYPOINT ["python", "/opt/app/hello_world.py"]
