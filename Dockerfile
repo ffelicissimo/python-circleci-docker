@@ -4,7 +4,7 @@ RUN mkdir /opt/hello_word/
 WORKDIR /opt/hello_word/
 
 COPY requirements.txt .
-COPY dist/hello_world /opt/hello_word/
+COPY hello_world.py /opt/hello_word/
 
 EXPOSE 80
 
