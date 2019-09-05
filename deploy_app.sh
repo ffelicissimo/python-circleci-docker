@@ -28,6 +28,6 @@ fi
 
 echo "Starting Hello World using Docker Image name: $DOCKER_IMAGE"
 
-docker run -d --rm=true -p 80:5000  --name hello_world $DOCKER_IMAGE
+docker run -d --rm=true -p 80:80  --name hello_world $DOCKER_IMAGE
 
 docker ps -a
